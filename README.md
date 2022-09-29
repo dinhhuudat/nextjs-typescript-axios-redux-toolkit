@@ -8,7 +8,7 @@ First, run the development server:
 
 1. npm install
 
-đổi file file với các biên bên trong
+đổi tên file .env.example -> .env
 
 npm run dev
 # or
