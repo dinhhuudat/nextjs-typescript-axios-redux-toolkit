@@ -1,0 +1,33 @@
+.user {
+  &__card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 160px;
+    min-height: 140px;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 4px;
+    &--name {
+      font-weight: bold;
+    }
+    &--coins {
+      color: red;
+    }
+    &--cards {
+      // display: flex;
+      // justify-content: space-around;
+    }
+  }
+}

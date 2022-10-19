@@ -1,19 +1,19 @@
 import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 
-axios.interceptors.request.use(
-  (config: AxiosRequestConfig) => {
-    const key = process.env.apiKey;
-    if (key) {
-      config.headers = {
-        "x-access-token": key,
-      };
-    }
-    return config;
-  },
-  (error) => {
-    return Promise.reject(error);
-  }
-);
+// axios.interceptors.request.use(
+//   (config: AxiosRequestConfig) => {
+//     const key = process.env.apiKey;
+//     if (key) {
+//       config.headers = {
+//         "x-access-token": key,
+//       };
+//     }
+//     return config;
+//   },
+//   (error) => {
+//     return Promise.reject(error);
+//   }
+// );
 
 const request = async (url: string, options: AxiosRequestConfig = {}) => {
   try {

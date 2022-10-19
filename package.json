@@ -11,18 +11,15 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "@fontsource/roboto": "^4.5.8",
-    "@material-ui/core": "^4.12.4",
-    "@mui/icons-material": "^5.10.6",
-    "@mui/material": "^5.10.7",
-    "@mui/styled-engine-sc": "^5.10.6",
-    "@mui/x-data-grid": "^5.17.4",
-    "@types/material-ui": "^0.21.12",
+    "@reduxjs/toolkit": "^1.8.6",
+    "@types/react-redux": "^7.1.24",
     "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "next": "12.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^8.0.4",
+    "sass": "^1.55.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
